@@ -29,7 +29,7 @@ If you glance through the wordcloud for a book from Project Gutenberg, you may n
 
  **Stopwords** are common words that you want to filter out from the analysis. Words like *the* and *and* appear frequently in English texts and carry relatively little semantic meaning in most textual analysis contexts. It is often useful to eliminate them from the textual data that you are working with to help ensure that you get the most meaningful possible results. There are a number of lists of default stopwords used in various textual analysis applications, but it is often helpful to add words that reflect the specific context of the text or texts with which you're working. 
 
- If you hover over the top right corner of the top left wordcloud pane, you will see a small toggle switch. This allows you to adjust the options for the tool in this particular pane
+ If you hover over the top right corner of the top left wordcloud pane, you will see a small toggle switch. This allows you to adjust the options for the tool in this particular pane. Click to toggle. This will bring up the options window for this particular pane/tool. The first option should be "Stopwords" and there should be an "Edit List" button next to it. Click this and add "project" and "gutenberg" on separate lines in the list. Save it and make sure that the "apply globally" box is checked. Not click confirm and you should see that neither "project" nor "gutenberg" are included in the wordcloud anymore. Because you applied the change globally, they will also be excluded from other analyses (though they will still appear in the reader). 
 
 ## Step Two: Corpus Analysis
 
