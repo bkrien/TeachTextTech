@@ -24,7 +24,7 @@ Now  go to the [Voyant Tools website](https://voyant-tools.org/) and copy and pa
 
 This will generate the default analysis of the text. This analysis consists of a series of five panes, each of which features a particular text analysis tool. We'll explore these options later in the workshop, but you can see a full list of the available tools in Voyant [here](https://voyant-tools.org/docs/#!/guide/tools_). 
 
-![Voyant Tools Default Analysis Interface](https://github.com/bkrien/TeachTextTech/Images/blob/main/VoyantInterface.jpg?raw=true)
+![Voyant Tools Default Analysis Interface](https://github.com/bkrien/TeachTextTech/blob/main/Images/VoyantInterface.png?raw=true)
 
 You can see that there is a WordCloud, a reader with the (searchable) text in it. A trend graph of the most common terms, a summary pane, and a context pane that shows a "frame" of the words appearing to both the left and right of specific terms. We can see, for instance, that in the case of *Frankenstein*, the most common word in the novel is "man," followed by "life," "father," "shall," and "eyes." While this is very basic information about the terms that comprise the text, it might open up some interesting avenues for exploration. Certainly questions of humanity, life, and fatherhood are frequent well explored among Shelley's readers, but what about vision/visibility ("eyes") and commands/commandments ("shall")?
 
