@@ -73,4 +73,6 @@ There are also great resources available for building corpora, including:
 ## Sources
 Goldstone, Andrew and Ted Underwood. "The Quiet Tranformation of Literary Studies: What Thirteen Thousand Scholars Could Tell Us." *New Literary History* 45, no. 3 (2014): 359-384.
 
+Krien, Brady. *American Historical Review Dataset.* March 2023. Distributed by Constellate. https://constellate.org/dataset/fc87e194-7f15-d88c-e593-4258313cdf56/
+
 Sinclair, Stéfan and Geoffrey Rockwell. Voyant Tools. 2016. http://voyant-tools.org/. 
