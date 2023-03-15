@@ -4,6 +4,8 @@ In this workshop we will explore utilizing the Voyant Tools platform originally 
 ## What You'll Do
 1. Familiarize yourself with the Voyant interface and analyze a historical novel of your choice
 2. Complete some basic cleaning of your textual data and improve your results by updating a list of stopwords
+3. Upload and analyze a corpus of scholarly journal article data
+4. Identify possible teaching or research applications that you might be able to apply 
 
 ## Why It Matters
 Given recent trends in digitalization, there is a wealth of textual data available for analysis, both contemporary and historical. While textual analysis has long been used as a tool in literary studies, it also has important applications in a wide variety of domains ranging from the history of science to sociology. Using computational tools to analyze the written record can open up a wide variety of analytical avenues, including into understanding the nature of our own disciplines. Andrew Goldstone and Ted Underwood, for instance, analyzed over 21,000 peer-reviewed articles from *PMLA* in order to trace changes in the field of literary studies over the past 120 years. 
@@ -31,9 +33,25 @@ If you glance through the wordcloud for a book from Project Gutenberg, you may n
 
  If you hover over the top right corner of the top left wordcloud pane, you will see a small toggle switch. This allows you to adjust the options for the tool in this particular pane. Click to toggle. This will bring up the options window for this particular pane/tool. The first option should be "Stopwords" and there should be an "Edit List" button next to it. Click this and add "project" and "gutenberg" on separate lines in the list. Save it and make sure that the "apply globally" box is checked. Not click confirm and you should see that neither "project" nor "gutenberg" are included in the wordcloud anymore. Because you applied the change globally, they will also be excluded from other analyses (though they will still appear in the reader). 
 
-## Step Two: Corpus Analysis
+## Task Two: Corpus Analysis
+Now that we've taken a look at the basic functionality of Voyant, we're going to dig into some of it's more powerful features, namely it's ability to analyze a corpus of texts. We're going to look at a sample set of articles from the *American Historical Review* that are drawn from ITHAKA's Constellate platform. These articles were all published between 1900 and 2016 (there are 1500 total) and we're going to look to see if they reveal any trends in historical scholarship during that period. 
 
-## Step Three: Brainstorm Utilization
+### Step One: Download the Corpus
+The first thing that you're going to want to do is download the data files. There are 12 files, each for a decade's word of articles. You can download each of these files individually here on GitHub (time-consuming) or download them from this shared [Google Drive](https://bit.ly/VoyantCorpus) (fast). Make sure that you have files 1900.txt through 2010.txt. 
+
+**Note: These files have already have the stopwords removed, so you don't need to worry about removing the main lists, through you can move additional words that might clutter your analysis (like "pp" that snuck in because of the page numbers). 
+
+### Step Two: Upload the Corpus
+Now that you have all the files downloaded, you're going to need to upload them to Voyant. Open up a new Voyant tab and hit the "Upload" button. You're going to select all of the files and upload them all at once. This will take a minute because these files are quite large (representing a total of 11,901,087 tokens!).
+
+### Step Three: Analyze
+Once the corpus loads, you can explore the visualizations. Get started with the "Trends" tool/pane in the top right. Start by typing the word "women" or "wom*" (or both) in the terms box at the bottom left of the Trends pane. The results will show you the relative frequency of the word women relative to the other words in the corpus during each decade (the timeline along the botton will automatically be populated because of the names of the files, but make sure that it's in the correct order).
+
+What other trendscan you find by exploring the data
+
+## Task Three: Brainstorm Utilization
+
+For the final part of our time together, think about how you might be able to use this or other text analysis tools in either your research or teaching. Start by identifying texts or textual datasets that might be interesting (this could be anything from ancient codices to French-language newspapers to Twitter data) and then think about what kinds of analysis you would like to do. What's interesting about this data or these corpora? What would you like to learn more about? How might you be able to use this in your research or teaching? 
 
 ## Options for Further Exploration
 There are a wide variety of open source textual analysis packages that work with languages such as R and Python that enable everything from extracting topics and topical patterns to measuring sentiment within documents. If you're interested in exploring more, you can take a look at some of the following resources (many of which teach very well): 
