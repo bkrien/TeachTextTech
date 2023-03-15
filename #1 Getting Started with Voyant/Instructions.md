@@ -12,7 +12,7 @@ Given recent trends in digitalization, there is a wealth of textual data availab
 
 ## Instructions
 ### Voyant Tools
-For this workshop, we'll be using a free, web-based, open-source tool for text analysis. Originally developed by Stéfan Sinclair, Voyant Tools is currently led by Geoffrey Rockwell at the University of Alberta. It is one of the most accessible text analysis tools available and, because it is web-based and requires no special software, it is one of the easiest tools to begin to use for either research or teaching. While it is among the more basic text analysis tools available, it does offer some powerful analytical features and is useful for exploring texts and smaller *corpora*, or collections of texts, and serves as a useful gateway into the world of text analysis tools.
+For this workshop, we'll be using Voyant, a free, web-based, open-source tool for text analysis. Originally developed by Stéfan Sinclair, Voyant Tools is currently led by Geoffrey Rockwell at the University of Alberta. It is one of the most accessible text analysis tools available and, because it is web-based and requires no special software, it is one of the easiest tools to begin to use for either research or teaching. While it is among the more basic text analysis tools available, it does offer some powerful analytical features and is useful for exploring texts and smaller *corpora*, or collections of texts, and serves as a useful gateway into the world of text analysis tools.
 
 ## Task One: Novel Analysis
 
@@ -23,6 +23,8 @@ Go to the [Project Gutenberg website](https://www.gutenberg.org/) and find a his
 Now  go to the [Voyant Tools website](https://voyant-tools.org/) and copy and past either the full text or the URL of the full text site into the "Add Texts" box in the middle of the page. Click "Reveal." 
 
 This will generate the default analysis of the text. This analysis consists of a series of five panes, each of which features a particular text analysis tool. We'll explore these options later in the workshop, but you can see a full list of the available tools in Voyant [here](https://voyant-tools.org/docs/#!/guide/tools_). 
+
+![Voyant Tools Default Analysis Interface](https://github.com/bkrien/TeachTextTech/Images/blob/main/VoyantInterface.jpg?raw=true)
 
 You can see that there is a WordCloud, a reader with the (searchable) text in it. A trend graph of the most common terms, a summary pane, and a context pane that shows a "frame" of the words appearing to both the left and right of specific terms. We can see, for instance, that in the case of *Frankenstein*, the most common word in the novel is "man," followed by "life," "father," "shall," and "eyes." While this is very basic information about the terms that comprise the text, it might open up some interesting avenues for exploration. Certainly questions of humanity, life, and fatherhood are frequent well explored among Shelley's readers, but what about vision/visibility ("eyes") and commands/commandments ("shall")?
 
