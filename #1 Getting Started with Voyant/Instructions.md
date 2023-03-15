@@ -39,7 +39,7 @@ Now that we've taken a look at the basic functionality of Voyant, we're going to
 ### Step One: Download the Corpus
 The first thing that you're going to want to do is download the data files. There are 12 files, each for a decade's word of articles. You can download each of these files individually here on GitHub (time-consuming) or download them from this shared [Google Drive](https://bit.ly/VoyantCorpus) (fast). Make sure that you have files 1900.txt through 2010.txt. 
 
-**Note: These files have already have the stopwords removed, so you don't need to worry about removing the main lists, through you can move additional words that might clutter your analysis (like "pp" that snuck in because of the page numbers). 
+> **Note:** These files have already have the stopwords removed, so you don't need to worry about removing the main lists, through you can move additional words that might clutter your analysis (like "pp" that snuck in because of the page numbers). 
 
 ### Step Two: Upload the Corpus
 Now that you have all the files downloaded, you're going to need to upload them to Voyant. Open up a new Voyant tab and hit the "Upload" button. You're going to select all of the files and upload them all at once. This will take a minute because these files are quite large (representing a total of 11,901,087 tokens!).
